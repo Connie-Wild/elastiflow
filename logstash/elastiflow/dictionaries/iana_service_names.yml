@@ -15,7 +15,6 @@
 # Robert Cowart are Copyright (C)2020 Robert Cowart. All Rights Reserved.
 #------------------------------------------------------------------------------
 
-# SCTP
 "132:1021": "exp1 (SCTP/1021)"
 "132:1022": "exp2 (SCTP/1022)"
 "132:11235": "xcompute (SCTP/11235)"
@@ -103,8 +102,6 @@
 "132:9900": "iua (SCTP/9900)"
 "132:9901": "enrp-sctp (SCTP/9901)"
 "132:9902": "enrp-sctp-tls (SCTP/9902)"
-
-# UDP
 "17:1": "tcpmux (UDP/1)"
 "17:1000": "cadlock2 (UDP/1000)"
 "17:10000": "ndmp (UDP/10000)"
@@ -5683,8 +5680,6 @@
 "17:9997": "palace-6 (UDP/9997)"
 "17:9998": "distinct32 (UDP/9998)"
 "17:9999": "distinct (UDP/9999)"
-
-# DCCP
 "33:1021": "exp1 (DCCP/1021)"
 "33:1022": "exp2 (DCCP/1022)"
 "33:1113": "ltp-deepspace (DCCP/1113)"
@@ -5694,8 +5689,6 @@
 "33:5005": "avt-profile-2 (DCCP/5005)"
 "33:6514": "syslog-tls (DCCP/6514)"
 "33:9": "discard (DCCP/9)"
-
-# TCP
 "6:1": "tcpmux (TCP/1)"
 "6:1000": "cadlock2 (TCP/1000)"
 "6:10000": "hive-server (TCP/10000)"
