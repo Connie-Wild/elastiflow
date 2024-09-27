@@ -7904,6 +7904,7 @@
 "6:2700": "tqdata (TCP/2700)"
 "6:2701": "sms-rcinfo (TCP/2701)"
 "6:27010": "flex-lmadmin (TCP/27010)"
+"6:27016": "chlenix (TCP/27016)"
 "6:27017": "mongodb (TCP/27017)"
 "6:27018": "mongodb-shardsvr (TCP/27018)"
 "6:27019": "mongodb-configsvr (TCP/27019)"
