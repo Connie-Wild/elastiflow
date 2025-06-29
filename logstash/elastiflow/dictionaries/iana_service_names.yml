@@ -1,16 +1,16 @@
 #------------------------------------------------------------------------------
 # Copyright (C)2020 Robert Cowart
-# 
+#
 # The contents of this file and/or repository are subject to the Robert Cowart
 # Public License (the "License") and may not be used or distributed except in
 # compliance with the License. You may obtain a copy of the License at:
-# 
+#
 # http://www.koiossian.com/public/robert_cowart_public_license.txt
-# 
+#
 # Software distributed under the License is distributed on an "AS IS" basis,
 # WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for
 # the specific language governing rights and limitations under the License.
-# 
+#
 # The Original Source Code was developed by Robert Cowart. Portions created by
 # Robert Cowart are Copyright (C)2020 Robert Cowart. All Rights Reserved.
 #------------------------------------------------------------------------------
@@ -4013,6 +4013,7 @@
 "17:450": "tserver (UDP/450)"
 "17:4500": "ipsec-nat-t (UDP/4500)"
 "17:45000": "asmp-mon (UDP/45000)"
+"17:4503": "m-bus-oms (UDP/4503)"
 "17:45054": "invision-ag (UDP/45054)"
 "17:451": "sfs-smp-net (UDP/451)"
 "17:45185": "witsnet (UDP/45185)"
@@ -4164,6 +4165,7 @@
 "17:4790": "vxlan-gpe (UDP/4790)"
 "17:4791": "roce (UDP/4791)"
 "17:4792": "unified-bus (UDP/4792)"
+"17:4793": "uet (UDP/4793)"
 "17:48": "auditd (UDP/48)"
 "17:480": "iafdbase (UDP/480)"
 "17:4800": "iims (UDP/4800)"

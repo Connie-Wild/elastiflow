@@ -1,16 +1,16 @@
 #------------------------------------------------------------------------------
 # Copyright (C)2020 Robert Cowart
-# 
+#
 # The contents of this file and/or repository are subject to the Robert Cowart
 # Public License (the "License") and may not be used or distributed except in
 # compliance with the License. You may obtain a copy of the License at:
-# 
+#
 # http://www.koiossian.com/public/robert_cowart_public_license.txt
-# 
+#
 # Software distributed under the License is distributed on an "AS IS" basis,
 # WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for
 # the specific language governing rights and limitations under the License.
-# 
+#
 # The Original Source Code was developed by Robert Cowart. Portions created by
 # Robert Cowart are Copyright (C)2020 Robert Cowart. All Rights Reserved.
 #------------------------------------------------------------------------------
@@ -2124,6 +2124,7 @@
 "fortinet__0..16560": "Freecast"
 "fortinet__0..16562": "Kaixin001"
 "fortinet__0..16563": "Clarizen"
+"fortinet__0..16564": "Atlassian_Login"
 "fortinet__0..16565": "Jiayuan"
 "fortinet__0..16567": "Chinaren.Class"
 "fortinet__0..16568": "Ebuddy"
@@ -5152,6 +5153,8 @@
 "fortinet__0..39862": "Kasnam.Botnet"
 "fortinet__0..39896": "Tapazom.Botnet"
 "fortinet__0..39917": "Skype_File.Transfer"
+"fortinet__0..39920": "Atlassian.Jira.Confluence_File.Upload"
+"fortinet__0..39921": "Atlassian.Jira.Confluence_File.Download"
 "fortinet__0..39922": "Ropest.Botnet"
 "fortinet__0..39926": "Tinba.Botnet"
 "fortinet__0..39945": "HKTV.Video"
@@ -5195,6 +5198,7 @@
 "fortinet__0..40182": "Dridex.Botnet"
 "fortinet__0..40194": "SuperVPN.Android"
 "fortinet__0..40208": "LoadHttp.Botnet"
+"fortinet__0..40235": "Reddit_Login"
 "fortinet__0..40265": "PwnPOS.Botnet"
 "fortinet__0..40269": "Easy.Proxy"
 "fortinet__0..40271": "LogPOS.Botnet"
@@ -5894,12 +5898,12 @@
 "fortinet__0..44044": "Private.Internet.Access.VPN"
 "fortinet__0..44052": "VPN.Robot"
 "fortinet__0..44067": "VPN.Go"
-"fortinet__0..44104": "CC-Link.IE.Field.Basic.SLMP_ReqST"
-"fortinet__0..44106": "CC-Link.IE.Field.Basic.SLMP_ResST"
-"fortinet__0..44107": "CC-Link.IE.Field.Basic.SLMP_ReqMT"
-"fortinet__0..44108": "CC-Link.IE.Field.Basic.SLMP_ResMT"
-"fortinet__0..44109": "CC-Link.IE.Field.Basic.SLMP_ReqEMT"
-"fortinet__0..44110": "CC-Link.IE.Field.Basic.SLMP_ResEMT"
+"fortinet__0..44104": "CC-Link.IE.Field.Basic.SLMP.ST_ReqST"
+"fortinet__0..44106": "CC-Link.IE.Field.Basic.SLMP.ST_ResST"
+"fortinet__0..44107": "CC-Link.IE.Field.Basic.SLMP.MT_ReqMT"
+"fortinet__0..44108": "CC-Link.IE.Field.Basic.SLMP.MT_ResMT"
+"fortinet__0..44109": "CC-Link.IE.Field.Basic.SLMP.EMT_ReqEMT"
+"fortinet__0..44110": "CC-Link.IE.Field.Basic.SLMP.EMT_ResEMT"
 "fortinet__0..44113": "CoAP_Post.Request"
 "fortinet__0..44114": "CoAP_Get.Request"
 "fortinet__0..44115": "CoAP_Put.Request"
@@ -5920,11 +5924,11 @@
 "fortinet__0..44151": "OPC.UA_Browse.Request"
 "fortinet__0..44152": "OPC.UA_Create.Subscription.Request"
 "fortinet__0..44153": "OPC.UA_Create.Monitored.Items.Request"
-"fortinet__0..44158": "CC-Link.IE.Field.Basic.SLMP_ST"
-"fortinet__0..44160": "CC-Link.IE.Field.Basic.SLMP_MT"
+"fortinet__0..44158": "CC-Link.IE.Field.Basic.SLMP.ST"
+"fortinet__0..44160": "CC-Link.IE.Field.Basic.SLMP.MT"
 "fortinet__0..44161": "OPC.UA_Error.Message"
 "fortinet__0..44162": "OPC.UA_Call.Request"
-"fortinet__0..44163": "CC-Link.IE.Field.Basic.SLMP_EMT"
+"fortinet__0..44163": "CC-Link.IE.Field.Basic.SLMP.EMT"
 "fortinet__0..44181": "OPC.UA_Delete.Nodes.Request"
 "fortinet__0..44182": "OPC.UA_Query.First.Request"
 "fortinet__0..44184": "OPC.UA_Query.Next.Request"
@@ -7861,9 +7865,9 @@
 "fortinet__0..52404": "OCPP_Unpublish.Firmware"
 "fortinet__0..52405": "OCPP_Update.Firmware"
 "fortinet__0..52420": "VPN.Master.Fast.Proxy.Server"
-"fortinet__0..52422": "OCPP.1.6"
-"fortinet__0..52423": "OCPP.2.0"
-"fortinet__0..52424": "OCPP.2.0.1"
+"fortinet__0..52422": "OCPP_Version.1.6"
+"fortinet__0..52423": "OCPP_Version.2.0"
+"fortinet__0..52424": "OCPP_Version.2.0.1"
 "fortinet__0..52427": "Daily.VPN"
 "fortinet__0..52437": "Pinkmare.VPN"
 "fortinet__0..52439": "Naver.Memo"
@@ -9083,7 +9087,7 @@
 "fortinet__0..56208": "Google.Gemini_Modify.Response"
 "fortinet__0..56211": "NLP.Cloud_Post"
 "fortinet__0..56214": "NLP.Cloud"
-"fortinet__0..56218": "Panasonic.MEWTOCOL"
+"fortinet__0..56218": "Panasonic.MEWTOCOL-COM"
 "fortinet__0..56219": "Claude_Delete"
 "fortinet__0..56220": "Claude_Post"
 "fortinet__0..56221": "Claude_Upload"
@@ -9248,6 +9252,7 @@
 "fortinet__0..56531": "Amazon.AWS_Titan.Embedding"
 "fortinet__0..56582": "Kuaishou"
 "fortinet__0..56597": "Global.Socket"
+"fortinet__0..56648": "QianQian_Music"
 "fortinet__0..56684": "OpenAI.ChatGPT_File.Upload"
 "fortinet__0..56688": "SSL_TLSv1.3.PQC"
 "fortinet__0..56753": "Dynatrace"
@@ -9277,6 +9282,7 @@
 "fortinet__0..57033": "Microsoft.Azure.Blob.Storage_File.Upload"
 "fortinet__0..57035": "Microsoft.Azure.Blob.Storage_File.Download"
 "fortinet__0..57100": "Doubao"
+"fortinet__0..57111": "VPN.Private"
 "fortinet__0..57171": "ITCM.HRX_Registration.Request"
 "fortinet__0..57206": "ITCM.HRX_Registration.Response"
 "fortinet__0..57208": "ITCM.HRX_Ping"
@@ -9321,10 +9327,25 @@
 "fortinet__0..57557": "V2Net.VPN"
 "fortinet__0..57574": "AdGuard.VPN"
 "fortinet__0..57594": "TipTop.VPN"
+"fortinet__0..57629": "CAFE.VPN"
+"fortinet__0..57686": "Fast.VPN"
 "fortinet__0..57737": "GitLab"
 "fortinet__0..57742": "GitLab_Login"
 "fortinet__0..57744": "GitLab_File.Upload"
 "fortinet__0..57746": "GitLab_File.Download"
+"fortinet__0..57828": "TECH5.EPI.Builder"
+"fortinet__0..57844": "ITCM.HRX"
+"fortinet__0..57939": "Modbus.Unity_Init.Comm"
+"fortinet__0..57987": "Panasonic.MEWTOCOL-DAT"
+"fortinet__0..57994": "Rapid.VPN"
+"fortinet__0..58002": "Reddit_File.Upload"
+"fortinet__0..58155": "F1Rockets.VPN"
+"fortinet__0..58160": "ServiceNow_Login"
+"fortinet__0..58161": "ServiceNow_File.Upload"
+"fortinet__0..58162": "ServiceNow_File.Download"
+"fortinet__0..58165": "Guardium.VPN"
+"fortinet__0..58184": "Simple.VPN.Pro"
+"fortinet__0..58189": "Tower.VPN"
 "fortinet__0..6": "BitTorrent"
 "fortinet__0..7": "Edonkey"
 "fortinet__0..8": "Gnutella"
